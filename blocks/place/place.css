@@ -1,0 +1,30 @@
+.place {
+    padding: 0 0 80px;
+    display: flex;
+    gap: 48px 40px;
+    flex-wrap: wrap;
+  }
+  
+  .place:last-child {
+    padding: 0;
+  }
+  
+  @media screen and (max-width: 1279px) {
+    .place {
+      column-gap: 32px;
+    }
+  }
+  
+  @media screen and (max-width: 1023px) {
+    .place {
+      padding-bottom: 73px;
+      column-gap: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .place {
+      padding-bottom: 50px;
+      gap: 32px 0;
+    }
+  }
