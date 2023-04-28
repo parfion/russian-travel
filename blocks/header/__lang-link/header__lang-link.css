@@ -1,5 +1,6 @@
 .header__lang-link {
     text-decoration-line: underline;
+    color: #FFFFFF;
 }
 
 .header__lang-link:last-child {
