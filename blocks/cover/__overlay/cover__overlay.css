@@ -7,7 +7,6 @@
     background: rgba(42, 44, 47, .3); /*Использовал конвертер цветов*/
     text-decoration: none;
     gap: 2rem;
-    overflow: hidden;
   }
   
   .cover__overlay:hover {
